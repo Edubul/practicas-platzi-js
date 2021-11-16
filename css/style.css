@@ -1,0 +1,139 @@
+html {
+    font-size: 62.25%;
+}
+body{
+    font-family: Helvetica, Arial, Sans-Serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2{
+    color: aliceblue;
+}
+
+h2{
+    font-size: 2.4rem;
+}
+
+select{
+    color: white;
+    border: none;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.mathSelector{
+    margin-left: 10px;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+button[type=button] {
+    border: none;
+    width: 115px;
+    cursor: pointer;
+    font-weight: bolder;
+    padding: 10px 7px;
+    border-radius: 12px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(2, 0, 22);
+    padding: 5px;
+}
+
+.mathBox_button-container{
+    margin: 10px 0;
+    display: flex;
+}
+
+.mathBox_button-container > button{
+    margin-right: 10px;
+}
+
+.mathBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.buttonSquare{
+    color: #00F2B5;
+    background-color: aliceblue;
+}
+
+.buttonTriangle{
+    color: #f29d00;
+}
+
+.buttonCircle {
+    color: #d600f2;
+}
+
+.square {
+    background-color: #00F2B5;
+}
+
+.triangle {
+    background-color: #f29d00;
+}
+
+.circle {
+    background-color: #d600f2;
+}
+
+.inputSquare {
+    color: #fff;
+    background-color: #33F6C4;
+}
+
+.inputTriangle {
+    color: #fff;
+    margin-bottom: 10px;
+    background-color: #f6a833b6;
+}
+
+.inputCircle {
+    color: #fff;
+    background-color: #d633f6cb;
+}
+
+form{
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    flex-direction: column;
+}
+
+form > label{
+    font-weight: 100;
+    letter-spacing: 0.05rem;
+    color: aliceblue;
+    margin-left: 5px;
+    font-size: 1.5rem;
+    margin-bottom: 2.5px;
+}
+
+.mathInput{
+    width: 100%;
+}
+
+.input {
+    height: 25px;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.disabled{
+    background-color: aliceblue;
+}
+

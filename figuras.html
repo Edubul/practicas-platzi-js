@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras Geométricas | Curso Práctico</title>
+</head>
+<body>
+    <header>
+        <h1>MathGeom</h1>
+    </header>
+
+    <!-- Square -->
+    <section>
+        <div class="mathBox square">
+            <h2>Square</h2>
+            <form action="">
+                <label for="inputCuadrado">How long is each side of your square?</label>
+                <div class="mathBox_button-container">
+                    <input class="input mathInput inputSquare" id="inputCuadrado" type="number"/>
+                    <select name="" id="" class="mathSelector">
+                        <option value="">cm</option>
+                        <option value="">m</option>
+                        <option value="">inch</option>
+                    </select>
+                </div>
+                <div class="mathBox_button-container">
+                    <button type="button" class="buttonSquare" onclick="calcularPerimetroCuadrado()">Get Perimeter</button>
+                    <button type="button" class="buttonSquare" onclick="calcularArea()">Get Area</button>
+                </div>
+                <input class="input disabled" id="inputCuadrado" type="number" placeholder="Answer" disabled="disabled"/>
+            </form>
+        </div>
+    </section>
+
+    <!-- Triangle -->
+    <section>
+        <div class="mathBox triangle">
+            <h2>Triangle</h2>
+            <form action="">
+                <label for="inputCuadrado">What are the measurements of your triangle?</label>
+                <input class="input inputTriangle" id="inputCuadrado" placeholder="Side A" type="number"/>
+                <input class="input inputTriangle" id="inputCuadrado" placeholder="Side B" type="number"/>
+                <input class="input inputTriangle" id="inputCuadrado" placeholder="Base" type="number"/>
+                <input class="input inputTriangle" id="inputCuadrado" placeholder="Height" type="number"/>
+                <div class="mathBox_button-container">
+                    <button type="button" class="buttonTriangle" onclick="calcularPerimetroCuadrado()">Get Perimeter</button>
+                    <button type="button" class="buttonTriangle" onclick="calcularArea()">Get Area</button>
+                </div>
+                <input class="input disabled" id="inputCuadrado" type="number" placeholder="Answer" disabled="disabled"/>
+
+            </form>
+        </div>
+    </section>
+    <!-- Circle -->
+    <section>
+        <div class="mathBox circle">
+            <h2>Circle</h2>
+            <form action="">
+                <label for="inputCuadrado">What is the radio of your circle?</label>
+                <input class="input inputCircle" placeholder="Radio" id="inputCuadrado" type="number"/>
+                <div class="mathBox_button-container">
+                    <button type="button" class="buttonCircle" onclick="calcularPerimetroCuadrado()">Get Perimeter</button>
+                    <button type="button" class="buttonCircle" onclick="calcularArea()">Get Area</button>
+                </div>
+                <input class="input disabled" id="inputCuadrado" type="number" placeholder="Answer" disabled="disabled"/>
+            </form>
+
+        </div>
+    </section>
+
+    <script src="./js/figuras.js"></script>
+</body>
+</html>
